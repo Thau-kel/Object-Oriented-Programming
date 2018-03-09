@@ -4,4 +4,5 @@ class Person:
         
 p = Person()
 print(p)
-    
+# The previous 2 lines can also be written as
+# Person.say_hi()  
