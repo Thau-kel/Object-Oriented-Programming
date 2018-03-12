@@ -21,7 +21,7 @@ class Teacher(SchoolMember):
         
 class Student:
     def __init__(self, name, age, marks):
-        SchooolMember.__init__(self, name, age)
+        SchoolMember.__init__(self, name, age)
         self.marks = marks
         print('(Initialized Student: {})'.format(self.name))
         
